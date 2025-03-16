@@ -74,3 +74,62 @@ Input:
 10
 
 Output: 3 (Explanation: the paths are 5-2-3, 5-3-2, 5-1-3-1)
+
+## Problem 4
+Santa Claus lives in Lapland. In his free time when it is not around New Year, while the elves are working on toys for next year, Santa Claus has a hobby. He likes to raise fish. But he does this in natural lakes. The ponds are interconnected by creeks, and the creeks flow from one pond to another. Fish from one lake can freely go to another lake through the streams. Every spring Santa Claus likes to stock the ponds with new fish. Your task is to tell Santa Claus, if he releases new fishes into pond X, how many other ponds the fishes will be able to reach on their own, so that there is no need for him to stock those ponds himself.
+
+Input: In the first line of the input, the number N < 15 is given, the number of ponds. In the second line, the number U < 20 is given, the number of rivers between the lakes. In the following U lines, pairs of 2 numbers R and Q are given, which means there is a river flowing from R to Q, where R and Q are pond numbers. In the last line, the number L is given, in which pond Santa Claus will release the fish.
+
+Output: The number of ponds that will be stocked except the initial one is printed out.
+
+Example: 
+
+Input: 
+
+11 
+
+19 
+
+3 3 
+
+7 8 
+
+7 3 
+
+1 7 
+
+0 0 
+
+7 2 
+
+6 3 
+
+2 0 
+
+0 9 
+
+6 10 
+
+1 2 
+
+2 8 
+
+5 7 
+
+4 3 
+
+10 4 
+
+3 9 
+
+7 10 
+
+9 4 
+
+4 10 
+
+7 
+
+Output: 
+
+7
